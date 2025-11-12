@@ -2,7 +2,7 @@ name: Hotstar Project CI/CD - Docker + ECR + ECS Deploy
 
 on:
   push:
-    branches: [ "main" ]        # Runs on every push to main
+    branches: [ "master" ]        # Runs on every push to main
   workflow_dispatch:             # Allows manual trigger from GitHub Actions
 
 jobs:
