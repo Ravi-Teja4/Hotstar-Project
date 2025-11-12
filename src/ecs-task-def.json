@@ -1,5 +1,5 @@
 {
-  "family": "react-app-task",
+  "family": "hotstar-task",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
@@ -7,7 +7,7 @@
   "executionRoleArn": "arn:aws:iam::552174866194:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "react-container",
+      "name": "hotstar-container",
       "image": "552174866194.dkr.ecr.us-east-1.amazonaws.com/hotstar-project:latest",
       "essential": true,
       "portMappings": [
