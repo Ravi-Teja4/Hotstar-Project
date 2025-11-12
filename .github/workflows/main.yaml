@@ -55,5 +55,6 @@ jobs:
         with:
           task-definition: ${{ steps.render-task-def.outputs.task-definition }}
           service: hotstar-service
-          cluster: hotstar-cluster
+          cluster: celebrated-fox-ruhgb8
+
           wait-for-service-stability: true
