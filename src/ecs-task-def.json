@@ -8,7 +8,7 @@
   "containerDefinitions": [
     {
       "name": "react-container",
-      "image": "552174866194.dkr.ecr.us-west-1.amazonaws.com/my-react-app:latest",
+      "image": "552174866194.dkr.ecr.us-east-1.amazonaws.com/hotstar-project:latest",
       "essential": true,
       "portMappings": [
         {
